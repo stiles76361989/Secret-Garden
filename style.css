@@ -1,0 +1,522 @@
+.navbar-brand{
+    font-family:playfair display !important;
+    font-size: 2.5rem !important;
+    color: #ffffff !important;
+}
+
+.nav-link{
+    font-family: quicksand !important;
+    font-size: 1.3rem !important;
+    background-color: #f5f5f5;
+    color: #333;
+     padding: 10px 20px;
+     border: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    color: #36482d !important;
+}
+
+.nav-link:hover{
+  background-color: #fcebf6  ;
+}
+
+.navbar-nav{
+    font-size: x-large;
+}
+
+.dropdown-item{
+    color: #333 !important;
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.dropdown-item:hover{
+    color: #5b8c5a !important;
+}
+
+.btn.btn-outline-success{
+    font-size: 1rem !important;
+}
+
+.btn.btn-outline-success:hover {
+  background-color: #5b8c5a; 
+  color: white;
+  border-color: #5b8c5a;
+  transition: all 0.3s ease;
+}
+
+.form-control:hover,
+.form-control:focus {
+  border-color: #5b8c5a;
+  box-shadow: 0 0 0 0.2rem rgba(91, 140, 90, 0.25);
+  transition: all 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #5b8c5a !important; 
+  box-shadow: 0 0 0 0.2rem rgba(91, 140, 90, 0.25) !important;
+  outline: none;
+}
+
+.form-control{
+    font-size: 1rem !important;
+}
+
+nav.navbar.navbar-expand-lg {
+  background-color: #9a5b85  !important;
+}
+
+body{
+    background-color: #f5f3f6  !important;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+.carousel-inner img {
+  max-height: 1000px;       
+  width: auto;             
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: contain;     
+  padding: 1rem;           
+}
+
+.carousel-caption h5,
+.carousel-caption p {
+  color: #36482d;
+   font-family: 'Quicksand', sans-serif;
+}
+
+ .footer-container {
+    background-color: #36482d; /* verde bosque oscuro */
+    padding: 3rem 1rem;
+    color: #f6d1ec; /* rosadito claro como contraste */
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+  }
+
+  .footer-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: #ffffff; /* blanco para resaltar el nombre */
+  }
+
+  .footer-text {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    color: #a6b9a2; /* verde hoja pastel */
+  }
+
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1.5rem 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .footer-links a {
+    color: #f6d1ec; /* rosadito claro */
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+  }
+
+  .footer-links a:hover {
+    color: #dc8abf; /* rosa pastel */
+  }
+
+  .footer-copy {
+    font-size: 0.9rem;
+    color: #ccc;
+    margin-top: 1rem;
+  }
+
+   .bienvenida {
+    background-color: #f6d1ec; /* fondo suave rosadito */
+    padding: 3rem 1.5rem;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color: #36482d; /* texto en verde bosque oscuro */
+  }
+
+  .bienvenida h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #9a5b85; /* lila profundo */
+  }
+
+  .bienvenida p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto;
+    color: #5b8c5a; /* verde tallo */
+  }
+
+.testimonios {
+  background-color: #f6f6f6;
+  padding: 3rem 1.5rem;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+}
+
+.testimonios h2 {
+  color: #5b8c5a; /* Verde tallo */
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+
+.testimonios-scroll {
+  max-height: 300px;
+  overflow-y: auto;
+  padding-right: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  scroll-behavior: smooth;
+}
+
+.testimonios-scroll blockquote {
+  background-color: #ffffff;
+  border-left: 5px solid #5b8c5a;
+  padding: 1rem 1.5rem;
+  width: 100%;
+  max-width: 700px;
+  border-radius: 0.75rem;
+  font-style: italic;
+  color: #36482d;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.custom-file-form {
+  font-family: 'Quicksand', sans-serif;
+  max-width: 500px;
+  margin: 0 auto;
+  color: #36482d; /* Verde bosque oscuro */
+}
+
+.file-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #5b8c5a; /* Verde tallo */
+  font-size: 1.1rem;
+}
+
+.form-control {
+  width: 100%;
+  padding: 0.4rem 0.6rem;
+  font-size: 1rem;
+  border: 2px solid #9a5b85; /* Lila profundo */
+  border-radius: 8px;
+  background-color: #f6d1ec; /* Rosadito claro */
+  color: #36482d;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.form-control:focus:not(:disabled) {
+  outline: none;
+  border-color: #5b8c5a; /* Verde tallo en foco */
+  background-color: #ffffff;
+  box-shadow: 0 0 5px #5b8c5aaa;
+}
+
+.form-control:disabled {
+  background-color: #e4e7e3;
+  border-color: #a6b9a2;
+  cursor: not-allowed;
+  color: #a6b9a2;
+}
+
+.submit-btn {
+  background-color: #5b8c5a;
+  color: white;
+  font-weight: 700;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 8px;
+  padding: 0.75rem 1.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #497543;
+}
+
+.form-control-sm {
+  font-size: 0.85rem;
+  padding: 0.25rem 0.4rem;
+}
+
+.form-control-lg {
+  font-size: 1.25rem;
+  padding: 0.6rem 0.9rem;
+}
+
+#carrito {
+    background-color: #5b8c5a; /* verde tallo */
+    color: #f6d1ec; /* rosadito claro */
+    padding: 0.5rem 1.1rem;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 1.2rem;
+    box-shadow: 0 3px 8px #5b8c5a88;
+    min-width: 140px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    user-select: none;
+    margin: 1.5rem auto;
+    width: fit-content;
+  }
+
+  #carrito:hover {
+    background-color: #497543;
+    cursor: default;
+  }
+
+  /* Ramos bloques */
+  .bloques {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    justify-items: center;
+    margin-top: 2rem;
+  }
+
+  .bloque {
+    background-color: white;
+    border-radius: 14px;
+    box-shadow: 0 5px 12px #9a5b8544;
+    width: 260px;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.2s ease;
+    user-select: none;
+  }
+
+  .bloque:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 18px #9a5b8599;
+  }
+
+  .bloque img {
+    width: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+    height: 180px;
+    margin-bottom: 1rem;
+  }
+
+  .bloque h3 {
+    font-size: 1.4rem;
+    color: #9a5b85; /* lila profundo */
+    margin: 0 0 0.3rem 0;
+    font-weight: 700;
+  }
+
+  .bloque p.info {
+    font-size: 1rem;
+    color: #5b8c5a;
+    margin: 0 0 0.5rem 0;
+    min-height: 3rem;
+  }
+
+  .bloque p.precio {
+    font-weight: 700;
+    font-size: 1.15rem;
+    color: #36482d;
+    margin: 0 0 1rem 0;
+  }
+
+  .btn-agregar {
+    background-color: #5b8c5a;
+    border: none;
+    color: white;
+    font-weight: 700;
+    padding: 0.55rem 1rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    user-select: none;
+  }
+
+  .btn-agregar:hover {
+    background-color: #497543;
+  }
+
+  .btn-quitar {
+    background-color: #9a5b85; /* lila profundo */
+  }
+
+  .btn-quitar:hover {
+    background-color: #7b4768;
+  }
+
+  .tipo-flores {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.flor-card {
+  background-color: #ffffff;
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.flor-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+.flor-card h3 {
+  color: #9a5b85; /* lila profundo */
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.flor-card p {
+  color: #5b8c5a; /* verde tallo */
+  font-size: 1rem;
+}
+
+.sobre-nosotros {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 2rem;
+  background-color: #fef5f9; /* rosado muy claro */
+  font-family: 'Quicksand', sans-serif;
+  color: #36482d;
+  gap: 2rem;
+}
+
+.sobre-nosotros .contenido {
+  max-width: 600px;
+  flex: 1 1 300px;
+}
+
+.sobre-nosotros .contenido p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: #5b8c5a; /* verde tallo */
+  line-height: 1.6;
+}
+
+.sobre-nosotros img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  flex: 1 1 300px;
+}
+
+/* Media queries para pantallas pequeñas */
+@media (max-width: 992px) {
+  /* Navbar: reducir tamaño fuente y que el nav-link ocupe todo el ancho */
+  .navbar-brand {
+    font-size: 2rem !important;
+  }
+  .nav-link {
+    font-size: 1.1rem !important;
+    padding: 8px 12px;
+  }
+  .navbar-nav {
+    font-size: medium;
+  }
+
+  /* Ramos bloques: pasar de 3 columnas a 2 */
+  .bloques {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  /* Navbar: font más pequeño y enlaces en columna */
+  .navbar-brand {
+    font-size: 1.5rem !important;
+  }
+  .nav-link {
+    font-size: 1rem !important;
+    padding: 6px 10px;
+  }
+  .navbar-nav {
+    font-size: smaller;
+  }
+
+  /* Ramos bloques: 1 columna */
+  .bloques {
+    grid-template-columns: 1fr;
+  }
+
+  /* Tipo flores grid: 1 columna */
+  .tipo-flores {
+    grid-template-columns: 1fr;
+    padding: 1rem;
+  }
+
+  /* Sobre nosotros: pasar a columna */
+  .sobre-nosotros {
+    flex-direction: column;
+    padding: 2rem 1rem;
+  }
+  .sobre-nosotros .contenido {
+    max-width: 100%;
+    flex: none;
+  }
+  .sobre-nosotros img {
+    max-width: 100%;
+    flex: none;
+    margin-top: 1.5rem;
+  }
+
+  /* Carousel imagen más responsiva */
+  .carousel-inner img {
+    max-height: 400px;
+    padding: 0.5rem;
+  }
+
+  /* Botones más pequeños */
+  .btn-agregar,
+  .btn-quitar,
+  .submit-btn {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
+  }
+
+  /* Carrito tamaño más compacto */
+  #carrito {
+    font-size: 1rem;
+    padding: 0.4rem 0.8rem;
+    min-width: 100px;
+  }
+}
